@@ -12,3 +12,5 @@
 Package.resolved
 **/Package.resolved
 .idea
+__pycache__/
+scripts/__pycache__/
