@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7945D470B54D4ED2B9E800B6 /* SwiftDataCloudKitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E08A0FB92441C3BAEF553D /* SwiftDataCloudKitApp.swift */; };
+		524153FB6464441C8FCBBB8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D5BF4B0FDA448A97942260 /* ContentView.swift */; };
+		5218CA0EEB2848438D7A1932 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B42B2E8211548769CAF7B74 /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22E08A0FB92441C3BAEF553D /* SwiftDataCloudKitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataCloudKitApp.swift; sourceTree = "<group>"; };
+		22D5BF4B0FDA448A97942260 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1B42B2E8211548769CAF7B74 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		F3E6341C3D5244A9A106063C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76BE3F78229C4CC494523498 /* SwiftDataCloudKit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftDataCloudKit.entitlements; sourceTree = "<group>"; };
+		DCF8DF43F01248F2A77B2D0A /* SwiftDataCloudKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataCloudKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A09EC4EE8E4FBFA7BCD5F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B6384AACA2944DE98C4374D = {
+			isa = PBXGroup;
+			children = (
+				BCEAEDCA11B847DB8557BC46 /* SwiftDataCloudKit */,
+				E74FC2BBDE474CC0BD0E4033 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E74FC2BBDE474CC0BD0E4033 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF8DF43F01248F2A77B2D0A /* SwiftDataCloudKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEAEDCA11B847DB8557BC46 /* SwiftDataCloudKit */ = {
+			isa = PBXGroup;
+			children = (
+				22E08A0FB92441C3BAEF553D /* SwiftDataCloudKitApp.swift */,
+				22D5BF4B0FDA448A97942260 /* ContentView.swift */,
+				1B42B2E8211548769CAF7B74 /* Assignment.swift */,
+				F3E6341C3D5244A9A106063C /* Info.plist */,
+				76BE3F78229C4CC494523498 /* SwiftDataCloudKit.entitlements */,
+			);
+			path = SwiftDataCloudKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E09291D9384E8DBD5E8D3F /* SwiftDataCloudKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E4F00D408F347C99E78C746 /* Build configuration list for PBXNativeTarget "SwiftDataCloudKit" */;
+			buildPhases = (
+				B8499F4A155340E3904420EA /* Sources */,
+				27A09EC4EE8E4FBFA7BCD5F7 /* Frameworks */,
+				564D7D13C19C43568DEE5216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDataCloudKit;
+			productName = SwiftDataCloudKit;
+			productReference = DCF8DF43F01248F2A77B2D0A /* SwiftDataCloudKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA95D898E98D4DDF851E8A70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = FBD829254EEE4855999B3AE3 /* Build configuration list for PBXProject "SwiftDataCloudKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B6384AACA2944DE98C4374D;
+			productRefGroup = E74FC2BBDE474CC0BD0E4033 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E09291D9384E8DBD5E8D3F /* SwiftDataCloudKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564D7D13C19C43568DEE5216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8499F4A155340E3904420EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7945D470B54D4ED2B9E800B6 /* SwiftDataCloudKitApp.swift in Sources */,
+				524153FB6464441C8FCBBB8F /* ContentView.swift in Sources */,
+				5218CA0EEB2848438D7A1932 /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE925E083910421E83F7E0AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		02CAFEC179194078B13AF1C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1670A009F4C74317996A0D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SwiftDataCloudKit/SwiftDataCloudKit.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftDataCloudKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.SwiftDataCloudKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2602D8A90F7248538720CD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SwiftDataCloudKit/SwiftDataCloudKit.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftDataCloudKit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.SwiftDataCloudKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBD829254EEE4855999B3AE3 /* Build configuration list for PBXProject "SwiftDataCloudKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE925E083910421E83F7E0AA /* Debug */,
+				02CAFEC179194078B13AF1C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E4F00D408F347C99E78C746 /* Build configuration list for PBXNativeTarget "SwiftDataCloudKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1670A009F4C74317996A0D4B /* Debug */,
+				2602D8A90F7248538720CD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA95D898E98D4DDF851E8A70 /* Project object */;
+}

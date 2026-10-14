@@ -1,0 +1,24 @@
+name: Capstone
+options:
+  bundleIdPrefix: com.swiftlearning
+  deploymentTarget:
+    iOS: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    GENERATE_INFOPLIST_FILE: NO
+    INFOPLIST_FILE: Capstone/Info.plist
+    PRODUCT_BUNDLE_IDENTIFIER: com.swiftlearning.Capstone
+targets:
+  Capstone:
+    type: application
+    platform: iOS
+    sources:
+      - Capstone
+    entitlements:
+      path: Capstone/Capstone.entitlements
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.swiftlearning.Capstone
+        INFOPLIST_FILE: Capstone/Info.plist

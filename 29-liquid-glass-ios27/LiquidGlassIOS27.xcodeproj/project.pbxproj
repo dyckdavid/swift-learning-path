@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08FD7C63277B4A04822EF2A2 /* LiquidGlassIOS27App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5295D74CAE8414B9870E939 /* LiquidGlassIOS27App.swift */; };
+		D2AF76CA1A394DE1B30BB247 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6312A15534493AA0665569 /* ContentView.swift */; };
+		C4084C1237284E079D0EB182 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D94AB662E49B488A32A60 /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5295D74CAE8414B9870E939 /* LiquidGlassIOS27App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiquidGlassIOS27App.swift; sourceTree = "<group>"; };
+		BB6312A15534493AA0665569 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D18D94AB662E49B488A32A60 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		C5C28466E87145CA84524E04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DAA09164CB24EB1BFA6E895 /* LiquidGlassIOS27.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidGlassIOS27.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B190EA2D34ED4795912A33EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72269B78D784457DB11538BE = {
+			isa = PBXGroup;
+			children = (
+				0BF9CC2C175D4693A1226B2A /* LiquidGlassIOS27 */,
+				8F7A0A6A614047FA84C0A8E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F7A0A6A614047FA84C0A8E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DAA09164CB24EB1BFA6E895 /* LiquidGlassIOS27.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BF9CC2C175D4693A1226B2A /* LiquidGlassIOS27 */ = {
+			isa = PBXGroup;
+			children = (
+				A5295D74CAE8414B9870E939 /* LiquidGlassIOS27App.swift */,
+				BB6312A15534493AA0665569 /* ContentView.swift */,
+				D18D94AB662E49B488A32A60 /* Assignment.swift */,
+				C5C28466E87145CA84524E04 /* Info.plist */,
+			);
+			path = LiquidGlassIOS27;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD075B8D615D425AA9B804C8 /* LiquidGlassIOS27 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A022B747265C48CCA6311291 /* Build configuration list for PBXNativeTarget "LiquidGlassIOS27" */;
+			buildPhases = (
+				EA70354114D44FE09D699EC1 /* Sources */,
+				B190EA2D34ED4795912A33EB /* Frameworks */,
+				00BC0306E85E4A6A8EC79DA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiquidGlassIOS27;
+			productName = LiquidGlassIOS27;
+			productReference = 9DAA09164CB24EB1BFA6E895 /* LiquidGlassIOS27.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6468033A3AC441A295E87A0C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 61B2BEAD9B6A458F819EBEC3 /* Build configuration list for PBXProject "LiquidGlassIOS27" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72269B78D784457DB11538BE;
+			productRefGroup = 8F7A0A6A614047FA84C0A8E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD075B8D615D425AA9B804C8 /* LiquidGlassIOS27 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00BC0306E85E4A6A8EC79DA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA70354114D44FE09D699EC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08FD7C63277B4A04822EF2A2 /* LiquidGlassIOS27App.swift in Sources */,
+				D2AF76CA1A394DE1B30BB247 /* ContentView.swift in Sources */,
+				C4084C1237284E079D0EB182 /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		07AE9430253948149ECEDD24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		2902A6909767497A9FD207C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDBF10E99C14470EB9328F73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LiquidGlassIOS27/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.LiquidGlassIOS27;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0005B9A0C9324C1EB8F3415E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LiquidGlassIOS27/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.LiquidGlassIOS27;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61B2BEAD9B6A458F819EBEC3 /* Build configuration list for PBXProject "LiquidGlassIOS27" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07AE9430253948149ECEDD24 /* Debug */,
+				2902A6909767497A9FD207C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A022B747265C48CCA6311291 /* Build configuration list for PBXNativeTarget "LiquidGlassIOS27" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBF10E99C14470EB9328F73 /* Debug */,
+				0005B9A0C9324C1EB8F3415E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6468033A3AC441A295E87A0C /* Project object */;
+}

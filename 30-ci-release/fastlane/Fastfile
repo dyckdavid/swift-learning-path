@@ -1,0 +1,10 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Build and upload to TestFlight (template — configure with your team/app identifiers)"
+  lane :beta do
+    # build_app(scheme: "YourScheme")
+    # upload_to_testflight(skip_waiting_for_build_processing: true)
+    UI.important("Template lane — uncomment and set scheme/bundle IDs before use.")
+  end
+end

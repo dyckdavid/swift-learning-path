@@ -1,0 +1,27 @@
+{
+  "identifier" : "SwiftLearningStore",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "AAAA1111",
+      "localizations" : [
+        {
+          "description" : "Unlock pro study themes",
+          "displayName" : "Pro Themes",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.swiftlearning.storekitlab.prothemes",
+      "referenceName" : "Pro Themes",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : { "_failTransactionsEnabled" : false },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}

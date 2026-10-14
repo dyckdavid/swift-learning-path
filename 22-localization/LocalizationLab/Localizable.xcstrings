@@ -1,0 +1,13 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Welcome" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Welcome" } },
+        "es" : { "stringUnit" : { "state" : "translated", "value" : "Bienvenido" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

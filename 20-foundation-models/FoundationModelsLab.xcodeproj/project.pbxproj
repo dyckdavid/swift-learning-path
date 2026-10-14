@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43B26FCD59324D7080208E59 /* FoundationModelsLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D3E4368F16428DB6CC53CC /* FoundationModelsLabApp.swift */; };
+		7D6F2F1FEC4744C994C5AEA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8DC2C7AE79431D8C673419 /* ContentView.swift */; };
+		A89BF6C3F11C4FF5AA5610EE /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792816E96F5643EF90B27761 /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25D3E4368F16428DB6CC53CC /* FoundationModelsLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationModelsLabApp.swift; sourceTree = "<group>"; };
+		9C8DC2C7AE79431D8C673419 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		792816E96F5643EF90B27761 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		6E1C360AB3BA4DF59EE5FE1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79E5413CAEAB438B99813C3B /* FoundationModelsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundationModelsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE2760A646F4161B5D0C1D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		198F266CFC174BBA855316FF = {
+			isa = PBXGroup;
+			children = (
+				8638044635894697B182BA53 /* FoundationModelsLab */,
+				AB1B7EF58B594AA683F94A09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1B7EF58B594AA683F94A09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79E5413CAEAB438B99813C3B /* FoundationModelsLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8638044635894697B182BA53 /* FoundationModelsLab */ = {
+			isa = PBXGroup;
+			children = (
+				25D3E4368F16428DB6CC53CC /* FoundationModelsLabApp.swift */,
+				9C8DC2C7AE79431D8C673419 /* ContentView.swift */,
+				792816E96F5643EF90B27761 /* Assignment.swift */,
+				6E1C360AB3BA4DF59EE5FE1F /* Info.plist */,
+			);
+			path = FoundationModelsLab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C9184891E4A4F94B6D501ED /* FoundationModelsLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C371FEC487C4D878D416CAB /* Build configuration list for PBXNativeTarget "FoundationModelsLab" */;
+			buildPhases = (
+				39EEECB8C7CE4442832C41B1 /* Sources */,
+				BCE2760A646F4161B5D0C1D6 /* Frameworks */,
+				AB35621E872C40949CFE92FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoundationModelsLab;
+			productName = FoundationModelsLab;
+			productReference = 79E5413CAEAB438B99813C3B /* FoundationModelsLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E48D62A75D0475DA8850CD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 8D1104ACFF8B41DEA49DE077 /* Build configuration list for PBXProject "FoundationModelsLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 198F266CFC174BBA855316FF;
+			productRefGroup = AB1B7EF58B594AA683F94A09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C9184891E4A4F94B6D501ED /* FoundationModelsLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB35621E872C40949CFE92FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39EEECB8C7CE4442832C41B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B26FCD59324D7080208E59 /* FoundationModelsLabApp.swift in Sources */,
+				7D6F2F1FEC4744C994C5AEA2 /* ContentView.swift in Sources */,
+				A89BF6C3F11C4FF5AA5610EE /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9CD2817ADE9D4E698238DF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		27A35C1C0F9F411A82B722E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F0A3443C2014E2CB8C22D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FoundationModelsLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.FoundationModelsLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D041FAF91224F0DB0D2E1B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FoundationModelsLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.FoundationModelsLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D1104ACFF8B41DEA49DE077 /* Build configuration list for PBXProject "FoundationModelsLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CD2817ADE9D4E698238DF99 /* Debug */,
+				27A35C1C0F9F411A82B722E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C371FEC487C4D878D416CAB /* Build configuration list for PBXNativeTarget "FoundationModelsLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0A3443C2014E2CB8C22D99 /* Debug */,
+				7D041FAF91224F0DB0D2E1B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E48D62A75D0475DA8850CD2 /* Project object */;
+}

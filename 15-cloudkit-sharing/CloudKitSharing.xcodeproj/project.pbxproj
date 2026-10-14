@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE2ADAFAF59D4CBF99A95423 /* CloudKitSharingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84290FFB38034A058832B18B /* CloudKitSharingApp.swift */; };
+		EEDC7E40FA124415A885EF68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A850F83427D48EDBCD9025D /* ContentView.swift */; };
+		03D2A5E7708C4CC5A9E4CF9F /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AAC8AD9A9A452A9E6FEDFD /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84290FFB38034A058832B18B /* CloudKitSharingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitSharingApp.swift; sourceTree = "<group>"; };
+		4A850F83427D48EDBCD9025D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42AAC8AD9A9A452A9E6FEDFD /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		694A671B3FD94F638346CE03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9CFDDD5D8D4157A1C5FFF4 /* CloudKitSharing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudKitSharing.entitlements; sourceTree = "<group>"; };
+		3A8F6F3FE7744E8780CC8A97 /* CloudKitSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudKitSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9ABA71E48044E883038A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68344934F2BD45D681C6974B = {
+			isa = PBXGroup;
+			children = (
+				E25BCFAE798F4DFD8E4DC6F4 /* CloudKitSharing */,
+				BC0F5F4DE1AC449094870084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC0F5F4DE1AC449094870084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A8F6F3FE7744E8780CC8A97 /* CloudKitSharing.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E25BCFAE798F4DFD8E4DC6F4 /* CloudKitSharing */ = {
+			isa = PBXGroup;
+			children = (
+				84290FFB38034A058832B18B /* CloudKitSharingApp.swift */,
+				4A850F83427D48EDBCD9025D /* ContentView.swift */,
+				42AAC8AD9A9A452A9E6FEDFD /* Assignment.swift */,
+				694A671B3FD94F638346CE03 /* Info.plist */,
+				3E9CFDDD5D8D4157A1C5FFF4 /* CloudKitSharing.entitlements */,
+			);
+			path = CloudKitSharing;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE4CD820B2994FC9AC7BE712 /* CloudKitSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11692B2EDF0942FD8FB1F752 /* Build configuration list for PBXNativeTarget "CloudKitSharing" */;
+			buildPhases = (
+				F638012DEB1A48BC94600E10 /* Sources */,
+				CC9ABA71E48044E883038A43 /* Frameworks */,
+				24ABC2179E8C4E7E83FE555D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudKitSharing;
+			productName = CloudKitSharing;
+			productReference = 3A8F6F3FE7744E8780CC8A97 /* CloudKitSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		624D3920137D4FED95644B61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = B11F84CFBDFD4AB58D56C62F /* Build configuration list for PBXProject "CloudKitSharing" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68344934F2BD45D681C6974B;
+			productRefGroup = BC0F5F4DE1AC449094870084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE4CD820B2994FC9AC7BE712 /* CloudKitSharing */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24ABC2179E8C4E7E83FE555D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F638012DEB1A48BC94600E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2ADAFAF59D4CBF99A95423 /* CloudKitSharingApp.swift in Sources */,
+				EEDC7E40FA124415A885EF68 /* ContentView.swift in Sources */,
+				03D2A5E7708C4CC5A9E4CF9F /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F38290CF109451D8C4FD22A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		1F3FD8D8728C4554903EDB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D3B157FC8AB4DE6A60C8F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = CloudKitSharing/CloudKitSharing.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CloudKitSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.CloudKitSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0D8C7A5771D4A9C805B2970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = CloudKitSharing/CloudKitSharing.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CloudKitSharing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.CloudKitSharing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B11F84CFBDFD4AB58D56C62F /* Build configuration list for PBXProject "CloudKitSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F38290CF109451D8C4FD22A /* Debug */,
+				1F3FD8D8728C4554903EDB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11692B2EDF0942FD8FB1F752 /* Build configuration list for PBXNativeTarget "CloudKitSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3B157FC8AB4DE6A60C8F21 /* Debug */,
+				F0D8C7A5771D4A9C805B2970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 624D3920137D4FED95644B61 /* Project object */;
+}

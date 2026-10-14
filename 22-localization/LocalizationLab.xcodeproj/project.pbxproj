@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7297DF9BA334560A41357A2 /* LocalizationLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094B28C6202943A68A0BD699 /* LocalizationLabApp.swift */; };
+		21B7FD46D853400D8B1F358E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEB5D71BF6C4FAF9B392CD6 /* ContentView.swift */; };
+		0B02E6380FCF42C1A723DF7A /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0E56B0E0614C8E87F8D53D /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		094B28C6202943A68A0BD699 /* LocalizationLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationLabApp.swift; sourceTree = "<group>"; };
+		CAEB5D71BF6C4FAF9B392CD6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC0E56B0E0614C8E87F8D53D /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		1481EB08745F4EBF997063D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8EA60B14EA4ADAAD919892 /* LocalizationLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizationLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5630A64ADF4F4E6389351C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E02852908B6E4176B058897C = {
+			isa = PBXGroup;
+			children = (
+				CE62AACC1F44426C85BA50BA /* LocalizationLab */,
+				F85E619AC6784DAC8F555BF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F85E619AC6784DAC8F555BF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D8EA60B14EA4ADAAD919892 /* LocalizationLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE62AACC1F44426C85BA50BA /* LocalizationLab */ = {
+			isa = PBXGroup;
+			children = (
+				094B28C6202943A68A0BD699 /* LocalizationLabApp.swift */,
+				CAEB5D71BF6C4FAF9B392CD6 /* ContentView.swift */,
+				CC0E56B0E0614C8E87F8D53D /* Assignment.swift */,
+				1481EB08745F4EBF997063D4 /* Info.plist */,
+			);
+			path = LocalizationLab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2006CE3DC18A4F8194CC6301 /* LocalizationLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F847BFF0D967416EBD26E345 /* Build configuration list for PBXNativeTarget "LocalizationLab" */;
+			buildPhases = (
+				3EC39FAD9B964FF1842F319E /* Sources */,
+				5630A64ADF4F4E6389351C0B /* Frameworks */,
+				29ABD50FC8574AB8A15D05C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalizationLab;
+			productName = LocalizationLab;
+			productReference = 6D8EA60B14EA4ADAAD919892 /* LocalizationLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E5C0DF33592476ABB4A9464 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = D319B82D51F0444491D63D3B /* Build configuration list for PBXProject "LocalizationLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E02852908B6E4176B058897C;
+			productRefGroup = F85E619AC6784DAC8F555BF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2006CE3DC18A4F8194CC6301 /* LocalizationLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29ABD50FC8574AB8A15D05C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3EC39FAD9B964FF1842F319E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7297DF9BA334560A41357A2 /* LocalizationLabApp.swift in Sources */,
+				21B7FD46D853400D8B1F358E /* ContentView.swift in Sources */,
+				0B02E6380FCF42C1A723DF7A /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A8E9A84177D441F89E41E059 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C210CF013E4E4A4ABE5268F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB868204AED24832B310CB4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LocalizationLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.LocalizationLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C28BECDC17D04D228FE35D7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = LocalizationLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.LocalizationLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D319B82D51F0444491D63D3B /* Build configuration list for PBXProject "LocalizationLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8E9A84177D441F89E41E059 /* Debug */,
+				C210CF013E4E4A4ABE5268F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F847BFF0D967416EBD26E345 /* Build configuration list for PBXNativeTarget "LocalizationLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB868204AED24832B310CB4F /* Debug */,
+				C28BECDC17D04D228FE35D7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E5C0DF33592476ABB4A9464 /* Project object */;
+}

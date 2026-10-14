@@ -1,0 +1,22 @@
+name: FoundationModelsLab
+options:
+  bundleIdPrefix: com.swiftlearning
+  deploymentTarget:
+    iOS: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    GENERATE_INFOPLIST_FILE: NO
+    INFOPLIST_FILE: FoundationModelsLab/Info.plist
+    PRODUCT_BUNDLE_IDENTIFIER: com.swiftlearning.FoundationModelsLab
+targets:
+  FoundationModelsLab:
+    type: application
+    platform: iOS
+    sources:
+      - FoundationModelsLab
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.swiftlearning.FoundationModelsLab
+        INFOPLIST_FILE: FoundationModelsLab/Info.plist

@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A826A94F5C6D46FBA0EE303B /* MacNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226FEB9008764D14A617D01E /* MacNotesApp.swift */; };
+		24E57CACA4A744C699998711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D8A37436CA4AD79B233192 /* ContentView.swift */; };
+		6BA8903366374818830ED94E /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705FC6676C9B4699AC099AAC /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		226FEB9008764D14A617D01E /* MacNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacNotesApp.swift; sourceTree = "<group>"; };
+		02D8A37436CA4AD79B233192 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		705FC6676C9B4699AC099AAC /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		A31A4A94EBF84A86AAA04589 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC77CC71DC1A4788A9F139BC /* MacNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4D05AC926584E9189DD3DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9E33176C039469BA822B830 = {
+			isa = PBXGroup;
+			children = (
+				388C2AD016AB4BBBB8F98BBA /* MacNotes */,
+				3E4BDDE870C54220A3516D90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E4BDDE870C54220A3516D90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC77CC71DC1A4788A9F139BC /* MacNotes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		388C2AD016AB4BBBB8F98BBA /* MacNotes */ = {
+			isa = PBXGroup;
+			children = (
+				226FEB9008764D14A617D01E /* MacNotesApp.swift */,
+				02D8A37436CA4AD79B233192 /* ContentView.swift */,
+				705FC6676C9B4699AC099AAC /* Assignment.swift */,
+				A31A4A94EBF84A86AAA04589 /* Info.plist */,
+			);
+			path = MacNotes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BC64A8A3FC64898A73BBF03 /* MacNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D580C7F36814E66AE3FC042 /* Build configuration list for PBXNativeTarget "MacNotes" */;
+			buildPhases = (
+				578A6DF04CC74A1FA793DB7D /* Sources */,
+				B4D05AC926584E9189DD3DA6 /* Frameworks */,
+				224501CEF6254982AB767F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacNotes;
+			productName = MacNotes;
+			productReference = DC77CC71DC1A4788A9F139BC /* MacNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECC228183545459AADA078FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 5D24C5C1CE3D4F898C6EEA6E /* Build configuration list for PBXProject "MacNotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9E33176C039469BA822B830;
+			productRefGroup = 3E4BDDE870C54220A3516D90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BC64A8A3FC64898A73BBF03 /* MacNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224501CEF6254982AB767F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578A6DF04CC74A1FA793DB7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A826A94F5C6D46FBA0EE303B /* MacNotesApp.swift in Sources */,
+				24E57CACA4A744C699998711 /* ContentView.swift in Sources */,
+				6BA8903366374818830ED94E /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABF10D8825404C17AEE8FFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		C1B495C42A8A486988626FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C60825212CF48C9B06D55C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.MacNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F69B2123EF564E198E4C1425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MacNotes/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.MacNotes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D24C5C1CE3D4F898C6EEA6E /* Build configuration list for PBXProject "MacNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF10D8825404C17AEE8FFA6 /* Debug */,
+				C1B495C42A8A486988626FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D580C7F36814E66AE3FC042 /* Build configuration list for PBXNativeTarget "MacNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C60825212CF48C9B06D55C6 /* Debug */,
+				F69B2123EF564E198E4C1425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECC228183545459AADA078FD /* Project object */;
+}

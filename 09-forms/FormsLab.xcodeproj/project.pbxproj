@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6CCFD066F9A42389D92FAB2 /* FormsLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E22E624099470299C1ECDC /* FormsLabApp.swift */; };
+		800C1131E4B84A0CA5722279 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD97EF539FEA4697ACB6763D /* ContentView.swift */; };
+		B663C643A58D418C9BA52420 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A7A0F2E6044A099BCB3D68 /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57E22E624099470299C1ECDC /* FormsLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormsLabApp.swift; sourceTree = "<group>"; };
+		CD97EF539FEA4697ACB6763D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0A7A0F2E6044A099BCB3D68 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		0937AE58F88544F8A461EFBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DA288707E243FFA8C9A67C /* FormsLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormsLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43665F9895A847ECB07E75F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B896A5324B048A68E38F2FC = {
+			isa = PBXGroup;
+			children = (
+				BD3DB85CE26A4C928112F4B5 /* FormsLab */,
+				F364C9EF644F4BABB74E8B71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F364C9EF644F4BABB74E8B71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DA288707E243FFA8C9A67C /* FormsLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD3DB85CE26A4C928112F4B5 /* FormsLab */ = {
+			isa = PBXGroup;
+			children = (
+				57E22E624099470299C1ECDC /* FormsLabApp.swift */,
+				CD97EF539FEA4697ACB6763D /* ContentView.swift */,
+				B0A7A0F2E6044A099BCB3D68 /* Assignment.swift */,
+				0937AE58F88544F8A461EFBC /* Info.plist */,
+			);
+			path = FormsLab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62A613C329834C73BD24182B /* FormsLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3473D62D9FC54449A919DF4A /* Build configuration list for PBXNativeTarget "FormsLab" */;
+			buildPhases = (
+				7807CBEBF5FF42AABB8BE3EA /* Sources */,
+				43665F9895A847ECB07E75F5 /* Frameworks */,
+				B7AE13ECD5FC480685455030 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormsLab;
+			productName = FormsLab;
+			productReference = D3DA288707E243FFA8C9A67C /* FormsLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8079A4321F444B51B51F2A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 7F993D3B51554932A93BC5A3 /* Build configuration list for PBXProject "FormsLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B896A5324B048A68E38F2FC;
+			productRefGroup = F364C9EF644F4BABB74E8B71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62A613C329834C73BD24182B /* FormsLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7AE13ECD5FC480685455030 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7807CBEBF5FF42AABB8BE3EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6CCFD066F9A42389D92FAB2 /* FormsLabApp.swift in Sources */,
+				800C1131E4B84A0CA5722279 /* ContentView.swift in Sources */,
+				B663C643A58D418C9BA52420 /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4C64F418D78B4BF18F91CA13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		49E682240CB1427A8106C8BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBD1FAAF73AF4107A29FD35F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FormsLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.FormsLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8849BE023DC94271BFFA4B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = FormsLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.FormsLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F993D3B51554932A93BC5A3 /* Build configuration list for PBXProject "FormsLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C64F418D78B4BF18F91CA13 /* Debug */,
+				49E682240CB1427A8106C8BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3473D62D9FC54449A919DF4A /* Build configuration list for PBXNativeTarget "FormsLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD1FAAF73AF4107A29FD35F /* Debug */,
+				8849BE023DC94271BFFA4B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8079A4321F444B51B51F2A25 /* Project object */;
+}

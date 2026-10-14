@@ -1,0 +1,22 @@
+name: LiquidGlassIOS27
+options:
+  bundleIdPrefix: com.swiftlearning
+  deploymentTarget:
+    iOS: "26.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    GENERATE_INFOPLIST_FILE: NO
+    INFOPLIST_FILE: LiquidGlassIOS27/Info.plist
+    PRODUCT_BUNDLE_IDENTIFIER: com.swiftlearning.LiquidGlassIOS27
+targets:
+  LiquidGlassIOS27:
+    type: application
+    platform: iOS
+    sources:
+      - LiquidGlassIOS27
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.swiftlearning.LiquidGlassIOS27
+        INFOPLIST_FILE: LiquidGlassIOS27/Info.plist

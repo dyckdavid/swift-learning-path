@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2E72EC99F2B49988990C3C9 /* WidgetsLiveActivitiesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312CCF0828474A65A2B6A01A /* WidgetsLiveActivitiesApp.swift */; };
+		0BF30A4000874E34A6BFE76F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D0D8EBD12946218D828168 /* ContentView.swift */; };
+		8C23FC742BD1444893AB0923 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C87FC874584C29A3C82AA3 /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		312CCF0828474A65A2B6A01A /* WidgetsLiveActivitiesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetsLiveActivitiesApp.swift; sourceTree = "<group>"; };
+		C1D0D8EBD12946218D828168 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79C87FC874584C29A3C82AA3 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		C6637AB642834B099795B601 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CD304BB6824CD39530BB2C /* WidgetsLiveActivities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WidgetsLiveActivities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8AD62D57AFD848559A35D0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		998570EBF0A14325BEB28A03 = {
+			isa = PBXGroup;
+			children = (
+				AA9C0380042D475ABB9EB25A /* WidgetsLiveActivities */,
+				7F01350220064102BE3DAD27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F01350220064102BE3DAD27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4CD304BB6824CD39530BB2C /* WidgetsLiveActivities.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9C0380042D475ABB9EB25A /* WidgetsLiveActivities */ = {
+			isa = PBXGroup;
+			children = (
+				312CCF0828474A65A2B6A01A /* WidgetsLiveActivitiesApp.swift */,
+				C1D0D8EBD12946218D828168 /* ContentView.swift */,
+				79C87FC874584C29A3C82AA3 /* Assignment.swift */,
+				C6637AB642834B099795B601 /* Info.plist */,
+			);
+			path = WidgetsLiveActivities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4242AB28C1FE44A18506B84A /* WidgetsLiveActivities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD5F8BCB72B14F9AB978D02F /* Build configuration list for PBXNativeTarget "WidgetsLiveActivities" */;
+			buildPhases = (
+				12E88C470A644CF79A220C42 /* Sources */,
+				8AD62D57AFD848559A35D0EF /* Frameworks */,
+				118599C644E14C72B7D3A3F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetsLiveActivities;
+			productName = WidgetsLiveActivities;
+			productReference = D4CD304BB6824CD39530BB2C /* WidgetsLiveActivities.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B9C1C4A41C740269728C62B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = C8B2329779B747F3AE70D033 /* Build configuration list for PBXProject "WidgetsLiveActivities" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 998570EBF0A14325BEB28A03;
+			productRefGroup = 7F01350220064102BE3DAD27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4242AB28C1FE44A18506B84A /* WidgetsLiveActivities */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		118599C644E14C72B7D3A3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12E88C470A644CF79A220C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E72EC99F2B49988990C3C9 /* WidgetsLiveActivitiesApp.swift in Sources */,
+				0BF30A4000874E34A6BFE76F /* ContentView.swift in Sources */,
+				8C23FC742BD1444893AB0923 /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8AA25EC33CFF4C9092DC6F50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		27A84D45C35542CAA7D197DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96E33A4490B04BE8B89CDD7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WidgetsLiveActivities/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.WidgetsLiveActivities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A049FDAB0094984B4A9F6A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WidgetsLiveActivities/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.WidgetsLiveActivities;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8B2329779B747F3AE70D033 /* Build configuration list for PBXProject "WidgetsLiveActivities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AA25EC33CFF4C9092DC6F50 /* Debug */,
+				27A84D45C35542CAA7D197DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD5F8BCB72B14F9AB978D02F /* Build configuration list for PBXNativeTarget "WidgetsLiveActivities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96E33A4490B04BE8B89CDD7F /* Debug */,
+				7A049FDAB0094984B4A9F6A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B9C1C4A41C740269728C62B /* Project object */;
+}

@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9905BD824E7246599F4583EB /* SwiftDataLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB072583A44857AF626FBA /* SwiftDataLabApp.swift */; };
+		D4BC8E90E282479FB4A52BC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA7713B838A4EBE817A9500 /* ContentView.swift */; };
+		BD5EBECC11D145E98D17831B /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EEE99D2FC4749D29562FD09 /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BCB072583A44857AF626FBA /* SwiftDataLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataLabApp.swift; sourceTree = "<group>"; };
+		DBA7713B838A4EBE817A9500 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9EEE99D2FC4749D29562FD09 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		2715CC6BFBC747549935C7E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C1D6829FE9435A94145386 /* SwiftDataLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7525F73581A48738A2A73DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C76A25F97C6F4ED6A7BB37DE = {
+			isa = PBXGroup;
+			children = (
+				EC724B5768CD47DEA72BB287 /* SwiftDataLab */,
+				7A73762A955543918882D6CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A73762A955543918882D6CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C1D6829FE9435A94145386 /* SwiftDataLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC724B5768CD47DEA72BB287 /* SwiftDataLab */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB072583A44857AF626FBA /* SwiftDataLabApp.swift */,
+				DBA7713B838A4EBE817A9500 /* ContentView.swift */,
+				9EEE99D2FC4749D29562FD09 /* Assignment.swift */,
+				2715CC6BFBC747549935C7E2 /* Info.plist */,
+			);
+			path = SwiftDataLab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4705C45DE46B41328B8BA509 /* SwiftDataLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4297FFD9A394FFCB83D6C55 /* Build configuration list for PBXNativeTarget "SwiftDataLab" */;
+			buildPhases = (
+				DEC1F0CF54164986B24EB377 /* Sources */,
+				E7525F73581A48738A2A73DD /* Frameworks */,
+				A50BD2913BF342AFAFC2208C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDataLab;
+			productName = SwiftDataLab;
+			productReference = F6C1D6829FE9435A94145386 /* SwiftDataLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0EA77C5D81497BB773B804 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = E471709FC3DD47788303BDAE /* Build configuration list for PBXProject "SwiftDataLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C76A25F97C6F4ED6A7BB37DE;
+			productRefGroup = 7A73762A955543918882D6CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4705C45DE46B41328B8BA509 /* SwiftDataLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50BD2913BF342AFAFC2208C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEC1F0CF54164986B24EB377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9905BD824E7246599F4583EB /* SwiftDataLabApp.swift in Sources */,
+				D4BC8E90E282479FB4A52BC4 /* ContentView.swift in Sources */,
+				BD5EBECC11D145E98D17831B /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6FB2B624097D4C6B9746902F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		971356260D4844CD8A752B34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E3C06925F8649639BFD029D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftDataLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.SwiftDataLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88C0CC140189479C91FC111B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = SwiftDataLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.SwiftDataLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E471709FC3DD47788303BDAE /* Build configuration list for PBXProject "SwiftDataLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FB2B624097D4C6B9746902F /* Debug */,
+				971356260D4844CD8A752B34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4297FFD9A394FFCB83D6C55 /* Build configuration list for PBXNativeTarget "SwiftDataLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E3C06925F8649639BFD029D /* Debug */,
+				88C0CC140189479C91FC111B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0EA77C5D81497BB773B804 /* Project object */;
+}

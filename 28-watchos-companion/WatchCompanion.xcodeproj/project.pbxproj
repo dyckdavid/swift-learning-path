@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94E2451D7D9F44C396DC4FFA /* WatchCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EBDB152D5F4B0797679436 /* WatchCompanionApp.swift */; };
+		9C222C6F10C344198F375256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCFDCFCA104FC49A9088B1 /* ContentView.swift */; };
+		FC23B0DB8AC7415EA18C51FB /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DFC12DDF454FD8B3956463 /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E1EBDB152D5F4B0797679436 /* WatchCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCompanionApp.swift; sourceTree = "<group>"; };
+		3CCCFDCFCA104FC49A9088B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4DFC12DDF454FD8B3956463 /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		301885F78AAC4637A38DD39C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF14F0C452D4FD9AEC80FCD /* WatchCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE2FBB77A39F4F2EA83F31E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D85FE9BD02D0449CAA137350 = {
+			isa = PBXGroup;
+			children = (
+				063BD5CE4D1643A0AE7E0C19 /* WatchCompanion */,
+				0465C5C6D5504BDCA899F989 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0465C5C6D5504BDCA899F989 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF14F0C452D4FD9AEC80FCD /* WatchCompanion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		063BD5CE4D1643A0AE7E0C19 /* WatchCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				E1EBDB152D5F4B0797679436 /* WatchCompanionApp.swift */,
+				3CCCFDCFCA104FC49A9088B1 /* ContentView.swift */,
+				D4DFC12DDF454FD8B3956463 /* Assignment.swift */,
+				301885F78AAC4637A38DD39C /* Info.plist */,
+			);
+			path = WatchCompanion;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC2F637B13A14B3EA98F96A1 /* WatchCompanion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2362960D78654D42BA79F024 /* Build configuration list for PBXNativeTarget "WatchCompanion" */;
+			buildPhases = (
+				F2B1D08D6E6B49A7853FD9FC /* Sources */,
+				AE2FBB77A39F4F2EA83F31E6 /* Frameworks */,
+				BFA683ADF8A345BD80309244 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchCompanion;
+			productName = WatchCompanion;
+			productReference = ACF14F0C452D4FD9AEC80FCD /* WatchCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E812582AE8C4DCAB6F60834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = C059517AD71A40B0AC1D68AB /* Build configuration list for PBXProject "WatchCompanion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D85FE9BD02D0449CAA137350;
+			productRefGroup = 0465C5C6D5504BDCA899F989 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC2F637B13A14B3EA98F96A1 /* WatchCompanion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFA683ADF8A345BD80309244 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2B1D08D6E6B49A7853FD9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E2451D7D9F44C396DC4FFA /* WatchCompanionApp.swift in Sources */,
+				9C222C6F10C344198F375256 /* ContentView.swift in Sources */,
+				FC23B0DB8AC7415EA18C51FB /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63E66DB3DF5E4F928D415E26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		9D3E4C237F934F428F3F6A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C21DEECCC424DE8851483D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WatchCompanion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.WatchCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7046AF03943745848D2AA2C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WatchCompanion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.WatchCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C059517AD71A40B0AC1D68AB /* Build configuration list for PBXProject "WatchCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63E66DB3DF5E4F928D415E26 /* Debug */,
+				9D3E4C237F934F428F3F6A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2362960D78654D42BA79F024 /* Build configuration list for PBXNativeTarget "WatchCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C21DEECCC424DE8851483D9 /* Debug */,
+				7046AF03943745848D2AA2C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E812582AE8C4DCAB6F60834 /* Project object */;
+}

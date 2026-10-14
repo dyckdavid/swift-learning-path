@@ -1,0 +1,22 @@
+name: MacNotes
+options:
+  bundleIdPrefix: com.swiftlearning
+  deploymentTarget:
+    iOS: "14.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    TARGETED_DEVICE_FAMILY: "1,2"
+    GENERATE_INFOPLIST_FILE: NO
+    INFOPLIST_FILE: MacNotes/Info.plist
+    PRODUCT_BUNDLE_IDENTIFIER: com.swiftlearning.MacNotes
+targets:
+  MacNotes:
+    type: application
+    platform: iOS
+    sources:
+      - MacNotes
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.swiftlearning.MacNotes
+        INFOPLIST_FILE: MacNotes/Info.plist

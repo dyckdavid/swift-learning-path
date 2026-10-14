@@ -1,0 +1,238 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB5A2945B4C444FE89716E22 /* PerformanceLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E968330570404EF0BE5F5732 /* PerformanceLabApp.swift */; };
+		D08E1600170943D7862CD33E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2616C15908484EAF9D46042D /* ContentView.swift */; };
+		9A0399F881D44DDA99616CB8 /* Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB1A3A386CB4A479BD16CDF /* Assignment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E968330570404EF0BE5F5732 /* PerformanceLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerformanceLabApp.swift; sourceTree = "<group>"; };
+		2616C15908484EAF9D46042D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AB1A3A386CB4A479BD16CDF /* Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment.swift; sourceTree = "<group>"; };
+		287C4429BDE8440CA6E98754 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC3D9A6D9F8A419FA53BBEEC /* PerformanceLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerformanceLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33DBF935C99148B9A8ED248F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9550640517F44B11AAB437C3 = {
+			isa = PBXGroup;
+			children = (
+				3FCB5B1436DB464086E84720 /* PerformanceLab */,
+				3A3F4DEA552E4B23BAABCA6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A3F4DEA552E4B23BAABCA6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D9A6D9F8A419FA53BBEEC /* PerformanceLab.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FCB5B1436DB464086E84720 /* PerformanceLab */ = {
+			isa = PBXGroup;
+			children = (
+				E968330570404EF0BE5F5732 /* PerformanceLabApp.swift */,
+				2616C15908484EAF9D46042D /* ContentView.swift */,
+				7AB1A3A386CB4A479BD16CDF /* Assignment.swift */,
+				287C4429BDE8440CA6E98754 /* Info.plist */,
+			);
+			path = PerformanceLab;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98F3BCC47C47481386BBC02F /* PerformanceLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CDB2864C9F4A8F87982AFA /* Build configuration list for PBXNativeTarget "PerformanceLab" */;
+			buildPhases = (
+				1C4B396F4D964890B146371B /* Sources */,
+				33DBF935C99148B9A8ED248F /* Frameworks */,
+				C34C40539C454C7EA5A516DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerformanceLab;
+			productName = PerformanceLab;
+			productReference = EC3D9A6D9F8A419FA53BBEEC /* PerformanceLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90CAB92877D64B31A2335A39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 2796F4BE65CB4E37BE544774 /* Build configuration list for PBXProject "PerformanceLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9550640517F44B11AAB437C3;
+			productRefGroup = 3A3F4DEA552E4B23BAABCA6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98F3BCC47C47481386BBC02F /* PerformanceLab */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C34C40539C454C7EA5A516DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C4B396F4D964890B146371B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5A2945B4C444FE89716E22 /* PerformanceLabApp.swift in Sources */,
+				D08E1600170943D7862CD33E /* ContentView.swift in Sources */,
+				9A0399F881D44DDA99616CB8 /* Assignment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63B6DA7255144EFE80710636 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		7867C8E7CD1F419989E8311F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C89D536FA6DF493188CBFA9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PerformanceLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.PerformanceLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D947F38FD2CC47C3B0B51664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PerformanceLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.swiftlearning.PerformanceLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2796F4BE65CB4E37BE544774 /* Build configuration list for PBXProject "PerformanceLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63B6DA7255144EFE80710636 /* Debug */,
+				7867C8E7CD1F419989E8311F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CDB2864C9F4A8F87982AFA /* Build configuration list for PBXNativeTarget "PerformanceLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89D536FA6DF493188CBFA9E /* Debug */,
+				D947F38FD2CC47C3B0B51664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90CAB92877D64B31A2335A39 /* Project object */;
+}
