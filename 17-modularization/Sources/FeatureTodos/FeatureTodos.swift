@@ -1,3 +1,5 @@
+import Foundation
+
 import Core
 
 public enum TodoFeature {

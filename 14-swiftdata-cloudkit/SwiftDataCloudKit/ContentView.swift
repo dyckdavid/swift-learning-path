@@ -1,24 +1,26 @@
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+    @Environment(\.modelContext) private var context
+    @Query private var tasks: [SyncedTask]
+
     var body: some View {
         NavigationStack {
-            VStack(spacing: 16) {
-                Text("SwiftData + CloudKit")
-                    .font(.largeTitle.bold())
-                Text("Private DB sync")
-                    .foregroundStyle(.secondary)
-                    .multilineTextAlignment(.center)
-                // Starter UI compiles. Implement TODOs below.
-                Spacer()
+            List {
+                ForEach(tasks) { task in
+                    Toggle(task.title, isOn: Binding(
+                        get: { task.isDone },
+                        set: { task.isDone = $0 }
+                    ))
+                }
             }
-            .padding()
             .navigationTitle("Tasks")
+            .toolbar {
+                Button("Add") {
+                    context.insert(SyncedTask(title: "Task \(tasks.count + 1)"))
+                }
+            }
         }
     }
 }
-
-#Preview {
-    ContentView()
-}
-

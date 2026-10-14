@@ -1,3 +1,5 @@
+import Foundation
+
 public protocol IdentifiableItem: Sendable {
     var id: String { get }
 }

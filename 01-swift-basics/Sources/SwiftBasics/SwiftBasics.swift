@@ -1,3 +1,5 @@
+import Foundation
+
 /// Project 01 — solutions
 public enum TemperatureUnit: String, Sendable {
     case celsius
