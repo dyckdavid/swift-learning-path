@@ -3,6 +3,6 @@ import SwiftMacrosLab
 
 @Test func stringifyCompiles() {
     let pair = #stringify(2)
-    // Starter macro returns placeholder (0, "TODO") until you implement expansion.
-    #expect(pair.0 == 0)
+    #expect(pair.0 == 2)
+    #expect(pair.1.contains("2"))
 }

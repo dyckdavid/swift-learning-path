@@ -21,32 +21,18 @@ public struct MemoryStore<Item: IdentifiableItem>: Sendable {
 
     public func all() -> [Item] { Array(items.values) }
 
-// MARK: - TODO: Generics + throwing APIs
-/*
- Goal:
- Complete store operations with typed errors.
+    public func item(id: String) throws -> Item {
+        guard let item = items[id] else { throw StoreError.notFound(id: id) }
+        return item
+    }
 
- Steps:
- 1. Implement `item(id:)` throwing `StoreError.notFound`.
- 2. Implement `upsert` mutating method.
- 3. Implement free function `validatedName(_:)` that throws `emptyName` for blank strings.
-
- Hints:
- - Use `guard let` + `throw`.
- - Trim whitespace before validating names.
-
- Acceptance criteria:
- - Missing id throws `.notFound`
- - "   " throws `.emptyName`
-
- Docs:
- - https://docs.swift.org/swift-book/documentation/the-swift-programming-language/generics/
- - https://docs.swift.org/swift-book/documentation/the-swift-programming-language/errorhandling/
- - https://docs.swift.org/swift-book/documentation/the-swift-programming-language/protocols/
-*/
-
-    // public func item(id: String) throws -> Item { fatalError("TODO") }
-    // public mutating func upsert(_ item: Item) { fatalError("TODO") }
+    public mutating func upsert(_ item: Item) {
+        items[item.id] = item
+    }
 }
 
-// public func validatedName(_ raw: String) throws -> String { fatalError("TODO") }
+public func validatedName(_ raw: String) throws -> String {
+    let trimmed = raw.trimmingCharacters(in: .whitespacesAndNewlines)
+    guard !trimmed.isEmpty else { throw StoreError.emptyName }
+    return trimmed
+}

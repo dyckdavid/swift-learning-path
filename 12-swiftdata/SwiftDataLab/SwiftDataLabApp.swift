@@ -7,6 +7,6 @@ struct SwiftDataLabApp: App {
         WindowGroup {
             ContentView()
         }
-        // .modelContainer(for: Note.self) // TODO: enable after defining Note
+        .modelContainer(for: Note.self)
     }
 }

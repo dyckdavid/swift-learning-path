@@ -32,30 +32,20 @@ public final class TodoViewModel: @unchecked Sendable {
         self.repository = repository
     }
 
-// MARK: - TODO: MVVM + Swift Testing
-/*
- Goal:
- Load/add/toggle todos through the view model; test behavior without UI.
+    public func refresh() async {
+        items = await repository.all()
+    }
 
- Steps:
- 1. Implement `refresh()`, `add(title:)`, `toggle(id:)`.
- 2. Keep transformation logic in the view model / repository — not in SwiftUI views.
- 3. Write `#expect` / `#require` tests in the test target.
+    public func add(title: String) async {
+        let item = TodoItem(title: title)
+        await repository.save(item)
+        await refresh()
+    }
 
- Hints:
- - Swift Testing ships with the toolchain — `import Testing`.
- - https://developer.apple.com/documentation/testing
-
- Acceptance criteria:
- - Tests cover add + toggle without flaking.
-
- Docs:
- - https://developer.apple.com/documentation/testing
- - https://docs.swift.org/latest/documentation/testing/expectations/
- - https://developer.apple.com/documentation/swiftui/managing-model-data-in-your-app
-*/
-
-    // public func refresh() async { fatalError("TODO") }
-    // public func add(title: String) async { fatalError("TODO") }
-    // public func toggle(id: UUID) async { fatalError("TODO") }
+    public func toggle(id: UUID) async {
+        guard var item = items.first(where: { $0.id == id }) else { return }
+        item.isDone.toggle()
+        await repository.save(item)
+        await refresh()
+    }
 }

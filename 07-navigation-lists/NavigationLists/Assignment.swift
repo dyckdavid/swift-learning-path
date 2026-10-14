@@ -1,3 +1,5 @@
+import SwiftUI
+
 struct SampleItem: Identifiable, Hashable {
     let id: UUID
     var title: String
@@ -11,25 +13,19 @@ enum SampleData {
         .init(title: "NavigationLink"),
     ]
 }
-// MARK: - TODO: List + NavigationStack detail
-/*
- Goal:
- Show SampleData.items in a List and push a detail screen.
 
- Steps:
- 1. Use NavigationStack + List(SampleData.items).
- 2. Each row is a NavigationLink to a detail view showing the title.
- 3. Support swipe-to-delete OR a toolbar EditButton (your choice).
-
- Hints:
- - Prefer value-based NavigationLink(value:) + navigationDestination(for:).
- - WWDC26 adds richer reorder APIs — optional stretch; see docs.
-
- Acceptance criteria:
- - Tapping a row shows detail; back navigation works.
-
- Docs:
- - https://developer.apple.com/documentation/swiftui/navigationstack
- - https://developer.apple.com/documentation/swiftui/list
- - https://developer.apple.com/videos/play/wwdc2026/269/
-*/
+struct LibraryRoot: View {
+    @State private var items = SampleData.items
+    var body: some View {
+        List {
+            ForEach(items) { item in
+                NavigationLink(value: item) { Text(item.title) }
+            }
+            .onDelete { items.remove(atOffsets: $0) }
+        }
+        .navigationDestination(for: SampleItem.self) { item in
+            Text(item.title).font(.largeTitle)
+        }
+        .toolbar { EditButton() }
+    }
+}

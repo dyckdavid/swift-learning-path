@@ -1,21 +1,33 @@
-// MARK: - TODO: Build a settings form
-/*
- Goal:
- Create a Form with text fields, picker, toggle, and validation.
+import SwiftUI
 
- Steps:
- 1. Fields: display name (TextField), difficulty (Picker), notifications (Toggle).
- 2. Disable a Save button until name.trimmingCharacters is non-empty.
- 3. On Save, present an alert confirming values.
+struct ProfileForm: View {
+    @State private var name = ""
+    @State private var difficulty = 1
+    @State private var notifications = true
+    @State private var showAlert = false
 
- Hints:
- - Use @State properties.
- - Form {{ Section {{ ... }} }}
+    private var canSave: Bool {
+        !name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
 
- Acceptance criteria:
- - Save disabled for blank names; alert shows submitted values.
-
- Docs:
- - https://developer.apple.com/documentation/swiftui/form
- - https://developer.apple.com/documentation/swiftui/textfield
-*/
+    var body: some View {
+        Form {
+            Section("Profile") {
+                TextField("Display name", text: $name)
+                Picker("Difficulty", selection: $difficulty) {
+                    Text("Easy").tag(0)
+                    Text("Normal").tag(1)
+                    Text("Hard").tag(2)
+                }
+                Toggle("Notifications", isOn: $notifications)
+            }
+            Button("Save") { showAlert = true }
+                .disabled(!canSave)
+        }
+        .alert("Saved", isPresented: $showAlert) {
+            Button("OK", role: .cancel) {}
+        } message: {
+            Text("\(name) · difficulty \(difficulty) · notifications \(notifications)")
+        }
+    }
+}

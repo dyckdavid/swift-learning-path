@@ -6,8 +6,11 @@ import Testing
     #expect(await repo.all().isEmpty)
 }
 
-// @Test @MainActor func addAndToggle() async {
-//     let vm = TodoViewModel(repository: InMemoryTodoRepository())
-//     await vm.add(title: "Ship course")
-//     #expect(vm.items.count == 1)
-// }
+@Test func addAndToggle() async {
+    let vm = TodoViewModel(repository: InMemoryTodoRepository())
+    await vm.add(title: "Ship course")
+    #expect(vm.items.count == 1)
+    let id = vm.items[0].id
+    await vm.toggle(id: id)
+    #expect(vm.items[0].isDone)
+}

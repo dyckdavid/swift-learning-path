@@ -4,12 +4,14 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 16) {
-                Text("SwiftUI Basics")
-                    .font(.largeTitle.bold())
-                Text("Layout, views, modifiers")
+                Image(systemName: "person.circle.fill")
+                    .font(.system(size: 72))
+                    .foregroundStyle(.tint)
+                Text("David")
+                    .font(.title.bold())
+                Text("Learning Swift from fundamentals to pro-level apps.")
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
-                // Starter UI compiles. Implement TODOs below.
                 Spacer()
             }
             .padding()
@@ -18,7 +20,4 @@ struct ContentView: View {
     }
 }
 
-#Preview {
-    ContentView()
-}
-
+#Preview { ContentView() }
